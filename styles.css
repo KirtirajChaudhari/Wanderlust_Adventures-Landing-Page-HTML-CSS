@@ -76,11 +76,11 @@ header .cta {
 }
 
 header .cta:hover {
-    background: #e65100; /* Darker shade on hover */
+    background: #e4dcd8; /* Darker shade on hover */
 }
 
 .hero {
-    background: url('hero1.jpg') no-repeat center center/cover;
+    background: url('Images/hero1.jpg') no-repeat center center/cover;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -177,6 +177,23 @@ header .cta:hover {
     transform: scale(1.05); /* Hover effect to scale image */
 }
 
+.aboutUS .cta{
+
+    background: #f60;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.aboutUS .cta:hover {
+    background: #e65100; /* Darker shade on hover */
+}
+
 .featured-destinations {
     padding: 4rem 0;
     text-align: center;
@@ -233,7 +250,12 @@ header .cta:hover {
     justify-content: center;
     margin-top: 2rem;
 }
-
+.package-container {
+    display: flex;
+    flex-wrap: nowrap; /* Ensures all elements stay on one line */
+    justify-content: space-between; /* Distributes packages evenly */
+  }
+  
 .package-item {
     background-color: #fff;
     padding: 2rem;
